@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x5131a640b71B2b0883946492EC0428ED31eFc1fe",
+  "SCAN_LINK": "https://etherscan.io/0x5131a640b71B2b0883946492EC0428ED31eFc1fe",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "LETH QUID By Kaelin",
+  "SYMBOL": "QUID",
+  "MAX_SUPPLY": 2000,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.10000000,
+  "GAS_LIMIT": 140000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/leth-quid-by-kaelin",
+  "SHOW_BACKGROUND": true
+}
