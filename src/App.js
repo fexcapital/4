@@ -102,13 +102,13 @@ export const StyledLink = styled.a`
 function App() {
   const dispatch = useDispatch();
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
-  const endTime = new Date("2023-07-08T14:00:00Z");
+  const endTime = new Date("2023-07-08T13:00:00Z");
   const initialTimeRemaining = endTime - new Date();
   const [mintOpen, setMintOpen] = useState(initialTimeRemaining <= 1000);
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click to mint your HANDS.`);
+  const [feedback, setFeedback] = useState(`Click to mint your QUID.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -292,7 +292,7 @@ function App() {
                 color: "var(--primary)",
               }}
             >
-              July 08, 14:00 UTC
+              July 08, 13:00 UTC
             </s.TextDescription>
             <s.SpacerLarge />
 
