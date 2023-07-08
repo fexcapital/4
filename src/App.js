@@ -289,22 +289,7 @@ function App() {
 
 
 
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                color: "var(--primary)",
-              }}
-            >
-              {mintOpen
-                ? "MINT OPEN"
-                : new Date(elapsedSeconds * 1000).toLocaleString("en-GB", {
-                  hour: "numeric",
-                  minute: "numeric",
-                  second: "numeric",
-                  timeZone: "UTC",
-                })}
-            </s.TextDescription>
+
 
 
 
