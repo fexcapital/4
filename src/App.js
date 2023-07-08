@@ -271,17 +271,7 @@ function App() {
 
 
 
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                //fontWeight: "bold",
-                color: "var(--primary)",
-              }}
-            >
-              Public mint:
-            </s.TextDescription>
-            <s.SpacerLarge />
+
 
 
             <s.TextDescription
@@ -292,7 +282,7 @@ function App() {
                 color: "var(--primary)",
               }}
             >
-              July 08, 13:00 UTC
+              LETH QUID is Sold Out
             </s.TextDescription>
             <s.SpacerLarge />
 
